@@ -5,13 +5,13 @@ Predicts whether a loan will be repaid or default, using real LendingClub data a
 ---
 
 **Data**
-- LendingClub dataset — 1M+ real loan records from 2007–2018
-- filtered to only clear outcomes: Fully Paid vs Charged Off
-- ~8,700 labeled samples used for training and evaluation
+- LendingClub dataset 
+- filtered to only clear outcomes Fully Paid vs Charged Off
+- 8700 labeled samples used for training and evaluation
 
 **Features**
 - 18 raw features: loan amount, interest rate, grade, income, DTI, credit history, etc.
-- 4 engineered features: TotalDebt, MonthlyIncome, Debt-to-Income ratio, Loan-to-Income ratio
+- 4 engineered features: TotalDebt, MonthlyIncome, Debt to Income ratio, Loan to Income ratio
 
 **Models**
 - Logistic Regression (tuned with GridSearchCV)
